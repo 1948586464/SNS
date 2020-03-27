@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#box{
+			        position: absolute;
+				width: 970px;
+				height: 150%;
+left: 198px;
+                                margin: auto;
+				padding-bottom: 19px;
+				overflow: hidden;
+				background: whitesmoke;
+				font-family: "微软雅黑";
+			}
+			#top{
+				width:964px ;
+				height: 30px;
+				background: url(img/navbar.png)no-repeat left top;
+			}
+			#top span{
+				margin-left: 740px;
+				font-size: 12px;
+				position: absolute;
+				top: 10px;
+			}
+			#top img{
+				margin-left: 28px;
+			}
+			#top a{
+				line-height: 12px;
+				padding: 4px;
+				margin-right: 2px;
+				margin-left: 2px;
+				margin-bottom:60px ;
+				color: white;
+				text-decoration: none;
+				display: inline;
+			}
+			#left{
+				background: url(img/content.png)no-repeat left top;
+				width: 320px;
+				height: 660px;
+				border: none;
+				position: absolute;
+				overflow: hidden;
+			}#left form{
+				font-size: 12px;
+				padding-top: 130px;
+				/*padding-left: 60px;*/
+				text-align: center;
+				margin-left: 50px;
+				margin-right: 50px;
+				padding-bottom: 40px;
+				border-bottom-style: dashed;
+				border-bottom-width: 1px;
+				border-bottom-color: powderblue;
+			}
+			#left #login{
+				width: 53px;
+				height: 25px;
+				background: url(img/button-login.gif) no-repeat left top;
+				border: none;
+				color: white;
+				text-align: center;
+				font-weight: bold;
+			}
+			#left #mima{
+				color: dodgerblue;
+			}
+			#left #p0,#p1,#p2{
+				text-align: center;
+				padding: 14px;
+			}
+			#left #p0{
+				padding-top: 20px;
+				font-size: 13px;
+			}
+			#left #regis{
+				width: 100px;
+				height: 40px;
+				background: url(img/button-reg.gif) no-repeat left top;
+				border: none;
+				color: white;
+				font-weight: bolder;
+			}
+			#right{
+				position: absolute;
+                float: left;
+                width: 640px;
+                height: 660px;
+                left: 330px;
+                font-size: 13px;
+			}
+			#r1{
+				margin-top: 24px;
+				float: left;
+				width: 320px;
+			}
+			#r2{
+				margin-top: 40px;
+			}
+			#r1-img{float: left;}
+			#r2-img{float: left;}
+			.s1{
+				position: absolute;
+				top: 330px;
+				left: 100px;
+				padding-top: 4px;
+			}
+			.s1 p{
+				line-height: 39px;
+				color: dodgerblue;
+			}
+			.s2{
+				position: absolute;
+				top: 333px;
+				left: 425px;
+			}
+			.s2 p{
+				line-height: 39px;
+				color: dodgerblue;
+			}
+			#bottom{
+				position: absolute;
+				width: 500px;
+				left: 0;
+				top: 590px;
+				float: left;
+				font-size: 12px;
+			}
+			#bo-img{float: left;}
+			#bottom-p{
+				position: absolute;
+				top: -10px;
+				left: 130px;
+				color: dimgray;
+			}
+			#footer{
+				position: absolute;
+				left: -25%;
+				top: 110%;
+			}
+			#footer p,#footer a{
+				color: darkslategray;
+			}
+		</style>
+
+	</head>
+	<body>
+		<div id="box">
+			<div id="top">
+				<img src="img/head-70x30.gif" />
+				<span><a href="#">注册</a>|<a href="#">登录</a>|<a href="$">帮助</a></span>
+			</div>
+			<div id="left">
+				<form action="#" method="get">
+					<p>邮&nbsp;箱:
+						<input type="email" name="email" />
+					</p>
+					<p>密&nbsp;码:
+						<input type="password" name="pass" />
+					</p>
+					<p>
+						<input type="checkbox" name="checkbox" />&nbsp;记住登录状态
+					</p>
+					<p>
+						<input type="submit" value="登录" id="login"/><span id="mima">忘记密码?</span>
+					</p>
+				</form>
+				<p id="p0">
+					<span id="span1">还没玩过搜狐白社会?</span>
+				</p>
+				<p id="p1">
+					<input type="button" value="立即注册" name="register" id="regis"/>
+				</p>
+				<p id="p2">
+					<img src="img/adImage.png" />
+				</p>
+			</div>
+			<div id="right">
+				<p><img src="img/flashbg.jpg"></p>
+				<div id="r1">
+					<img src="img/icons.gif" id="r1-img"/>
+					<span class="s1">
+						<p>简简单单一句话，记录生活每一刻。</p>
+						<p>悄悄的告诉你，你想说什么。</p>
+						<p>文字留下的点滴，是回忆，是心情。</p>
+						<p>分享你的网页音乐视频，让快乐传递。</p>
+					</span>
+				</div>
+				<div id="r2">
+					<img src="img/icons.gif" id="r2-img"/>
+					<span class="s2">
+						<p>三人行，必有好友焉。</p>
+						<p>好友一举一动，尽收眼底。</p>
+						<p>记录瞬间，精彩呈现在这里。</p>
+						<p>送你的礼，让别人说去吧!</p>
+					</span>
+				</div>
+				<div id="bottom">
+				<img src="img/news.gif" id="bo-img"/>
+				<div id="bottom-p">
+				    <p>10月28日，我的主页和白社会未登陆网页版，强调沟通</p>
+				    <p id="p8">10月28日，校友录推出绑定飞信服务</p>
+				</div>
+			</div>
+			<div id="footer">
+				<p>
+					<a href="#">手机白社会</a><span>|</span>
+					<a href="#">关于我们</a><span>|</span>
+					<a href="#">帮助中心</a><span>|</span>
+					<a href="#">联系方式</a><span>|</span>
+					<a href="#">提建议</a><span>|</span>
+					24小时客服热线<a href="#"><span style="color: blue;">010-58811234</span>(人工8:00-24:00)</a>
+				</p>
+				<p style="text-indent: 6em;">
+					Copyright&nbsp;2011&nbsp;Sohu.com.Inc.All Rights Reserved.&nbsp;&nbsp;搜狐公司&nbsp;<a href="#">版权所有</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
